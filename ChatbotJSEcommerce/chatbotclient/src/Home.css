@@ -1,0 +1,76 @@
+.banner {
+    background-image: url("https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z3JvY2VyeXxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #A6A941;
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+  }
+  
+  .chatbotparent{
+    display: flex;
+    justify-content: flex-end;
+   
+  }
+  
+  .stick{
+    position: sticky;
+    top: 150px;
+  }
+  
+  .banner > h1 {
+    margin: 5vmax;
+    font-weight: bolder;
+    font: 600 2.5vmax "Roboto";
+  }
+  
+  .banner > p {
+    font-weight: bolder;
+    /* color: #E69A0F; */
+    font: 300 1.4vmax "Lucida Sans";
+  }
+  
+  .banner > a > button {
+    margin-bottom: 5vmax;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0;
+    color: white;
+    padding: 1vmax;
+    transition: all 0.5s;
+    width: 9vmax;
+    font: 500 1vmax "Roboto";
+    font-weight: bolder;
+  }
+  .banner > a > button:hover {
+    background-color: #a6a941;
+    color: white;
+  }
+  
+  .banner::after {
+    content: "";
+    width: 100vw;
+    height: 100vmin;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    clip-path: polygon(100% 68%, 0 100%, 100% 100%);
+    max-width: 100%;
+  }
+  
+  
+  
+ 
+  
+
+  
+ 
